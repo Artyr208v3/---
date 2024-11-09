@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    @font-face {
+        font-family: TildaSans-Light ;
+        src: url("TildaSans-Light.ttf");
+    }
+}
 .main_page {
     display:flex;
     position: fixed;
