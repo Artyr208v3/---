@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_page {
+    display:flex;
+    position: fixed;
+    background-color: #1771f1;
+    height: 100vh;
+    width: 100vw;
+}
+.headline_text_1 {
+}
+.headline_text_2 {
+}
+.headline_text_3 {
+}
+.arrow_down {
+    display: none;
+}
