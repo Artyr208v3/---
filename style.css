@@ -3,25 +3,98 @@
     padding: 0;
 }
 
-body {
-    @font-face {
-        font-family: TildaSans-Light ;
-        src: url("TildaSans-Light.ttf");
-    }
+@font-face {
+	font-family: 'TildaSansLight';
+	src: url('/font/TildaSans-Light.eot');
+	src:
+	     url('/font/TildaSans-Light.eot?#iefix') format('embedded-opentype'),
+	     url('/font/TildaSans-Light.woff2') format('woff2'),
+	     url('/font/TildaSans-Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
+
+span {
+    font-family: "TildaSansLight", sans-serif;
+    color: white;
+}
+
 .main_page {
     display:flex;
-    position: fixed;
     background-color: #1771f1;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+}
+.lines {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .headline_text_1 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
 }
 .headline_text_2 {
+    line-height: 1.17;
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 80px 0px 38px 0px;
 }
 .headline_text_3 {
+    font-size: 24px;
 }
 .arrow_down {
-    display: none;
+    background-color: #1771f1;
+    border: none;
+    width: 50px;
+    height: 25px;
+    position: relative;
+    top: 270px;
+    animation: moveUpDown 2s infinite;
+    cursor: pointer;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Начальное положение */
+    }
+    50% {
+        transform: translateY(-10px); /* Двигаем вверх на 50px */
+    }
+    100% {
+        transform: translateY(0); /* Возвращаемся в начальное положение */
+    }
+}
+
+.page_2 {
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+}
+.headline_text_4 {
+    color: rgb(165, 165, 165);;
+}
+.headline_text_5 {
+    color: #000000;
+}
+.headline_text_6 {
+}
+.headline_text_7 {
+}
+.headline_text_8 {
 }
