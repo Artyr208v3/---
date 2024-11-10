@@ -87,14 +87,112 @@ span {
     text-align: center;
 }
 .headline_text_4 {
-    color: rgb(165, 165, 165);;
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    font-weight: bold;
 }
 .headline_text_5 {
+    padding-top: 8px;
+    padding-bottom: 3px;
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
     color: #000000;
 }
 .headline_text_6 {
+    padding-bottom: 60px;
+    padding-top: 41px;
+    font-size: 24px;
+    line-height: 1.45;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+
 }
 .headline_text_7 {
+    padding-top: 105px;
+    padding-bottom: 9px;
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.35;
+    color: #000000;
 }
 .headline_text_8 {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #000000;
+    font-weight: 300;
+    padding-bottom: 135px;
+
+}
+
+.btn {
+    text-align: center;
+    border: 3px solid #000000;
+    background-color: #1771f1;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    text-decoration: none;
+
+}
+
+.btn_text {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.page_3 {
+    background-color: #eeeeee;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+}
+.headline_text_9 {
+    padding-top: 180px;
+    color: black;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+.headline_text_10 {
+    font-size: 64px;
+    font-weight: 900;
+    color: black;
+    padding-bottom: 60px;
+
+}
+.headline_text_11 {
+    color: rgb(1, 20, 47);
+    font-size: 24px;
+    font-weight: 300;
+    width: 960px;
+    line-height: 1.50;   
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+b {
+    font-weight: 900;
 }
