@@ -196,3 +196,95 @@ span {
 b {
     font-weight: 900;
 }
+
+a {
+    text-decoration: none;
+}
+
+
+.page_4 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+}
+
+.headline_text_12 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.files_list {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-bottom: 250px;
+
+}
+.file_1 {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.file_img {
+    width: 115px;
+}
+.file_text_1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.page_5 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+
+}
+.headline_text_13 {
+    color: #000000;
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+}
+.files_list_2 {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-bottom: 160px;
+    padding-top: 100px;
+}
+.cyrcle {
+    background-color: #222;
+    border: 2px solid #fff;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "TildaSansLight", sans-serif;
+
+}
+.file_text_2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "TildaSansLight",Arial , sans-serif;
+}
