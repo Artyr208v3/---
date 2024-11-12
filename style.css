@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
 	font-family: 'TildaSansLight';
 	src: url('/font/TildaSans-Light.eot');
@@ -229,11 +233,13 @@ a {
 .file_1 {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
 
 }
 .file_img {
     width: 115px;
+    margin-top: 40px;
 }
 .file_text_1 {
     color: #000000;
@@ -287,4 +293,23 @@ a {
     font-size: 20px;
     font-weight: 900;
     font-family: "TildaSansLight",Arial , sans-serif;
+}
+
+.headline_text_14 {
+color: #000000;
+margin-top: 40px;
+font-size: 24px;
+padding-bottom: 150px;
+}
+
+footer {
+    background-color: #0e3d7f;
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.contact {
+    color: gray;
+    font-size: 24px;
 }
